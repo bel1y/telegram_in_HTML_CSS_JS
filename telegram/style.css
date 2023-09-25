@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+cursor: pointer;
 }
 
 .img_name{
@@ -12,12 +13,13 @@
     width: 100%;
     margin: auto;
 }
+
 .img_name img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: none;
-    background-color: #fff;
+width: 40px;
+height: 40px;
+background-color: #fff;
+border: none;
+border-radius: 50%;
 }
 .img_name h3{
     font-size: 20px;
@@ -44,6 +46,7 @@
     border: 1px solid grey;
     border-radius: 20px;
     overflow: hidden;
+    position: relative;
 }
 .text_place{
     padding: 10px;
@@ -71,6 +74,26 @@
     color: black;
 
 }
+.messege4{
+    background-color: #85bdf5;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    width: auto;
+     margin-top: 20px;   
+}
+
+.messege3{
+    background-color: #fff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    width: auto;
+    color: black;
+   
+}
 
 .sendmes{
     display: flex;
@@ -96,8 +119,20 @@
 }
 
 .setting{
-position: absolute;
-background-color: #fff; 
+    position: absolute;
+    background: #fff !important; 
+    z-index: 99999;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    left: -100%;
+    transition: 1s !important;
+}
+.setting2{
+    position: absolute;
+background: #fff !important; 
 z-index: 99999;
 width: 80%;
 margin-left: 5px;
@@ -107,11 +142,20 @@ padding: 10px;
 left: -100%;
 transition: 1s !important;
 }
+
 .setbgc{
 padding: 10px;
 width: 80%;
 margin: auto;
 cursor: pointer;
+}
+.setting2 hr{
+    width: 80%;
+    height: 1px;
+    border: none;
+    margin: auto;
+    background-color: #96969680;
+    margin-top: 10px;
 }
 .setting hr{
     width: 80%;
@@ -136,3 +180,73 @@ cursor: pointer;
     background-color: #eeececbd;
     border-radius: 20px;
     }
+
+
+.change_bgc{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    z-index: 99999;
+    padding: 10px;
+    left: -1000%;
+    width: 80%;
+margin-left: 5px;
+margin-top: 10px;
+border-radius: 10px;
+transition: 1s !important;
+}
+
+.df_back_change{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.change_bgc_img{
+    width: 70px;
+    height: 150px;
+}
+
+.change_bgc_img2{
+    width: 70px;
+    height: 150px;
+}
+
+.change_bgc_img3{
+    width: 70px;
+    height: 150px;
+}
+
+.change_bgc_img4{
+    width: 70px;
+    height: 150px;
+}
+
+.change_bgc_img5{
+    width: 70px;
+    height: 150px;
+}
+
+.change_bgc_img6{
+    width: 70px;
+    height: 150px;
+}
+
+.change_bgc_img7{
+    width: 70px;
+    height: 150px;
+}
+
+.change_bgc_img8{
+    width: 70px;
+    height: 150px;
+}
+
+.df_img_change{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
