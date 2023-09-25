@@ -20,5 +20,5 @@ function backMenu() {
 }
 
 function bgc_change() {
-    document.querySelector(".text_place").style=""
+    document.querySelector(".text_place").style=" background:url(https://i.pinimg.com/736x/d2/bf/d3/d2bfd3ea45910c01255ae022181148c4.jpg); "
 }
